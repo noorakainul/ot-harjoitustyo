@@ -1,0 +1,638 @@
+.
+├── c-spring2022
+│   ├── kolmas
+│   │   ├── M03
+│   │   │   ├── M03.code-workspace
+│   │   │   ├── ascii
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── desc-en.md
+│   │   │   │   ├── desc-fi.md
+│   │   │   │   ├── macros
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main
+│   │   │   │       ├── main.c
+│   │   │   │       ├── source.c
+│   │   │   │       └── source.h
+│   │   │   ├── blocks
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── macros
+│   │   │   │   │   └── macros
+│   │   │   │   │       ├── Makefile
+│   │   │   │   │       ├── desc-en.md
+│   │   │   │   │       ├── desc-fi.md
+│   │   │   │   │       └── src
+│   │   │   │   │           ├── Makefile
+│   │   │   │   │           ├── macros_solution.h
+│   │   │   │   │           └── main.c
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main
+│   │   │   │       └── main.c
+│   │   │   ├── calc
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── desc-en.md
+│   │   │   │   ├── desc-fi.md
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main
+│   │   │   │       ├── main.c
+│   │   │   │       ├── source.c
+│   │   │   │       └── source.h
+│   │   │   ├── for
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main
+│   │   │   │       └── main.c
+│   │   │   ├── macros
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── desc-en.md
+│   │   │   │   ├── desc-fi.md
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── macros_solution.h
+│   │   │   │       └── main.c
+│   │   │   └── triangle
+│   │   │       ├── Makefile
+│   │   │       ├── desc-en.md
+│   │   │       ├── desc-fi.md
+│   │   │       └── src
+│   │   │           ├── Makefile
+│   │   │           ├── main
+│   │   │           ├── main.c
+│   │   │           ├── source.c
+│   │   │           └── source.h
+│   │   └── M03.zip
+│   ├── module1
+│   │   ├── M01.zip
+│   │   └── module1.first_task
+│   ├── module2
+│   │   ├── M02
+│   │   │   ├── M02.code-workspace
+│   │   │   ├── fix_numbers
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       └── main.c
+│   │   │   ├── fraction_sum
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main.c
+│   │   │   │       ├── source.c
+│   │   │   │       └── source.h
+│   │   │   ├── hello_world
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       └── main.c
+│   │   │   ├── intro
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── desc-en.md
+│   │   │   │   ├── desc-fi.md
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       └── main.c
+│   │   │   ├── pi
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       └── main.c
+│   │   │   ├── power_three
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       └── main.c
+│   │   │   ├── print_hex
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       └── main.c
+│   │   │   └── vector
+│   │   │       ├── Makefile
+│   │   │       ├── desc-en.md
+│   │   │       ├── desc-fi.md
+│   │   │       └── src
+│   │   │           ├── Makefile
+│   │   │           ├── main.c
+│   │   │           ├── source.c
+│   │   │           └── source.h
+│   │   └── M02.zip
+│   ├── module3
+│   ├── module4
+│   │   ├── M04
+│   │   │   ├── M04.code-workspace
+│   │   │   ├── bit-sequence
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── bit_sequence.c
+│   │   │   │       ├── bit_sequence.h
+│   │   │   │       └── main.c
+│   │   │   ├── bitmanip1
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main
+│   │   │   │       ├── main.c
+│   │   │   │       ├── source.c
+│   │   │   │       └── source.h
+│   │   │   ├── bitmanip2
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main
+│   │   │   │       ├── main.c
+│   │   │   │       ├── source.c
+│   │   │   │       └── source.h
+│   │   │   ├── bitop
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── desc-en.md
+│   │   │   │   ├── desc-fi.md
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── bits.c
+│   │   │   │       ├── bits.h
+│   │   │   │       ├── main
+│   │   │   │       └── main.c
+│   │   │   └── frame-header
+│   │   │       ├── Makefile
+│   │   │       └── src
+│   │   │           ├── Makefile
+│   │   │           ├── header.c
+│   │   │           ├── header.h
+│   │   │           └── main.c
+│   │   ├── M04.zip
+│   │   └── M04uus
+│   │       ├── M04
+│   │       │   ├── M04.code-workspace
+│   │       │   ├── bit-sequence
+│   │       │   │   ├── Makefile
+│   │       │   │   └── src
+│   │       │   │       ├── Makefile
+│   │       │   │       ├── bit_sequence.c
+│   │       │   │       ├── bit_sequence.h
+│   │       │   │       ├── main
+│   │       │   │       └── main.c
+│   │       │   ├── bitmanip1
+│   │       │   │   ├── Makefile
+│   │       │   │   └── src
+│   │       │   │       ├── Makefile
+│   │       │   │       ├── main.c
+│   │       │   │       ├── source.c
+│   │       │   │       └── source.h
+│   │       │   ├── bitmanip2
+│   │       │   │   ├── Makefile
+│   │       │   │   └── src
+│   │       │   │       ├── Makefile
+│   │       │   │       ├── main.c
+│   │       │   │       ├── source.c
+│   │       │   │       └── source.h
+│   │       │   ├── bitop
+│   │       │   │   ├── Makefile
+│   │       │   │   ├── desc-en.md
+│   │       │   │   ├── desc-fi.md
+│   │       │   │   └── src
+│   │       │   │       ├── Makefile
+│   │       │   │       ├── bits.c
+│   │       │   │       ├── bits.h
+│   │       │   │       └── main.c
+│   │       │   └── frame-header
+│   │       │       ├── Makefile
+│   │       │       └── src
+│   │       │           ├── Makefile
+│   │       │           ├── header.c
+│   │       │           ├── header.h
+│   │       │           ├── main
+│   │       │           └── main.c
+│   │       └── M04.zip
+│   ├── module5
+│   │   ├── M05
+│   │   │   ├── M05.code-workspace
+│   │   │   ├── array
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main.c
+│   │   │   │       ├── source.c
+│   │   │   │       └── source.h
+│   │   │   ├── countalpha
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main.c
+│   │   │   │       ├── source.c
+│   │   │   │       └── source.h
+│   │   │   ├── countchars
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main.c
+│   │   │   │       ├── source.c
+│   │   │   │       └── source.h
+│   │   │   ├── newstring
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main.c
+│   │   │   │       ├── source.c
+│   │   │   │       └── source.h
+│   │   │   ├── read_int
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── main
+│   │   │   │       └── main.c
+│   │   │   ├── seg_fault
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src
+│   │   │   │       ├── Makefile
+│   │   │   │       └── main.c
+│   │   │   └── sort
+│   │   │       ├── Makefile
+│   │   │       └── src
+│   │   │           ├── Makefile
+│   │   │           ├── main.c
+│   │   │           ├── source.c
+│   │   │           └── source.h
+│   │   └── M05.zip
+│   └── module6
+│       ├── M06
+│       │   ├── M06.code-workspace
+│       │   ├── dyn_array
+│       │   │   ├── Makefile
+│       │   │   └── src
+│       │   │       ├── Makefile
+│       │   │       ├── main
+│       │   │       ├── main.c
+│       │   │       ├── source.c
+│       │   │       └── source.h
+│       │   ├── join_arrays
+│       │   │   ├── Makefile
+│       │   │   └── src
+│       │   │       ├── Makefile
+│       │   │       ├── main
+│       │   │       ├── main.c
+│       │   │       ├── source.c
+│       │   │       └── source.h
+│       │   ├── my_strcat
+│       │   │   ├── Makefile
+│       │   │   └── src
+│       │   │       ├── Makefile
+│       │   │       ├── main
+│       │   │       ├── main.c
+│       │   │       ├── source.c
+│       │   │       └── source.h
+│       │   ├── polisher
+│       │   │   ├── Makefile
+│       │   │   └── src
+│       │   │       ├── Makefile
+│       │   │       ├── main
+│       │   │       ├── main.c
+│       │   │       ├── source.c
+│       │   │       ├── source.h
+│       │   │       └── testfile.c
+│       │   └── rev_string
+│       │       ├── Makefile
+│       │       └── src
+│       │           ├── Makefile
+│       │           ├── main
+│       │           └── main.c
+│       └── M06.zip
+├── e2
+│   ├── Makefile
+│   ├── exam.code-workspace
+│   ├── exam_march_2022_strings5.zip
+│   ├── main.c
+│   └── main.out
+├── e3
+│   ├── Makefile
+│   ├── exam.code-workspace
+│   ├── exam_march_2022_bits8.zip
+│   ├── main.c
+│   └── main.out
+├── e4
+│   ├── Makefile
+│   ├── exam.code-workspace
+│   ├── exam_march_2022_fix-code3.zip
+│   ├── main.c
+│   └── main.out
+├── e_1
+│   ├── Makefile
+│   ├── exam.code-workspace
+│   ├── exam_march_2022_arrays5.zip
+│   ├── main.c
+│   └── main.out
+├── exam_march_2022_bits8.zip
+├── module7
+│   ├── M07
+│   │   ├── M07.code-workspace
+│   │   ├── T1-array-of-strings
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       └── main.c
+│   │   ├── T2-vehicle-seats
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       └── main.c
+│   │   ├── T3-ships
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       └── main.c
+│   │   ├── T4-book-collection
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── book.c
+│   │   │       ├── book.h
+│   │   │       ├── main
+│   │   │       └── main.c
+│   │   ├── T5-fraction
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── fraction.c
+│   │   │       ├── fraction.h
+│   │   │       └── main.c
+│   │   └── T6-queue
+│   │       ├── Makefile
+│   │       └── src
+│   │           ├── Makefile
+│   │           ├── main
+│   │           ├── main.c
+│   │           ├── queue.c
+│   │           └── queue.h
+│   └── M07.zip
+├── module8
+│   ├── M08
+│   │   ├── M08.code-workspace
+│   │   ├── T1-count-str
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       ├── main.c
+│   │   │       ├── source.c
+│   │   │       └── source.h
+│   │   ├── T2-str-split
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       ├── main.c
+│   │   │       ├── stringsplit.c
+│   │   │       └── stringsplit.h
+│   │   ├── T3-shop-products
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       ├── main.c
+│   │   │       ├── shopfunctions.c
+│   │   │       └── shopfunctions.h
+│   │   └── T4-my-printer
+│   │       ├── Makefile
+│   │       └── src
+│   │           ├── Makefile
+│   │           ├── main
+│   │           ├── main.c
+│   │           ├── myprint.c
+│   │           └── myprint.h
+│   └── M08.zip
+├── module9
+│   ├── M09
+│   │   ├── M09.code-workspace
+│   │   ├── T1-hex-dump
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── hexread.c
+│   │   │       ├── hexread.h
+│   │   │       ├── main
+│   │   │       └── main.c
+│   │   ├── T2-file-basics
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── filebasics.c
+│   │   │       ├── filebasics.h
+│   │   │       ├── main
+│   │   │       ├── main.c
+│   │   │       ├── testfile.c
+│   │   │       └── testfile2.c
+│   │   ├── T3-stats
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── filestats.c
+│   │   │       ├── filestats.h
+│   │   │       ├── main
+│   │   │       ├── main.c
+│   │   │       └── testi.txt
+│   │   ├── T4-shop
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       ├── main.c
+│   │   │       ├── shop.c
+│   │   │       ├── shop.h
+│   │   │       ├── test
+│   │   │       └── test.txt
+│   │   └── T5-dungeon
+│   │       ├── Makefile
+│   │       └── src
+│   │           ├── Makefile
+│   │           ├── dungeon.h
+│   │           ├── main
+│   │           ├── main.c
+│   │           ├── mapgen.c
+│   │           ├── monster.c
+│   │           └── userif.c
+│   └── M09.zip
+├── ot-harjoitustyo
+│   ├── README.md
+│   └── laskarit
+│       └── viikko1
+├── ot_viikko1
+│   ├── eka.txt
+│   ├── eka1.txt
+│   ├── file1.
+│   ├── kolmas.txt
+│   ├── stuff
+│   │   └── neljas.txt
+│   └── tiedostoja
+│       ├── file1
+│       ├── file22
+│       └── file3
+├── pe_2
+│   ├── Makefile
+│   ├── exam.code-workspace
+│   ├── exam_example_q2.zip
+│   ├── main.c
+│   └── main.out
+├── pe_3
+│   ├── Makefile
+│   ├── exam.code-workspace
+│   ├── exam_example_q3.zip
+│   ├── main.c
+│   └── main.out
+├── practice_exam
+│   ├── Makefile
+│   ├── exam.code-workspace
+│   ├── exam_example_q1.zip
+│   ├── main.c
+│   └── main.out
+├── project
+│   ├── project.code-workspace
+│   ├── project_2022_template.zip
+│   └── src
+│       ├── Makefile
+│       ├── main.out
+│       ├── project.c
+│       ├── project.h
+│       └── usr
+│           └── include
+├── projectn
+│   ├── project.code-workspace
+│   ├── project_2022_template
+│   │   └── project_2022_templare.code-workspace
+│   ├── project_2022_template.zip
+│   └── src
+│       ├── Makefile
+│       ├── project.c
+│       └── project.h
+├── projuctn
+├── testi
+│   ├── project.code-workspace
+│   ├── project_2022_template.zip
+│   └── src
+│       ├── Makefile
+│       ├── project.c
+│       └── project.h
+├── tokamoduuli
+│   ├── M02
+│   │   ├── M02.code-workspace
+│   │   ├── fix_numbers
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       └── main.c
+│   │   ├── fraction_sum
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       ├── main.c
+│   │   │       ├── source.c
+│   │   │       └── source.h
+│   │   ├── hello_world
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       └── main.c
+│   │   ├── intro
+│   │   │   ├── Makefile
+│   │   │   ├── desc-en.md
+│   │   │   ├── desc-fi.md
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       └── main.c
+│   │   ├── pi
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       └── main.c
+│   │   ├── power_three
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       └── main.c
+│   │   ├── print_hex
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main
+│   │   │       └── main.c
+│   │   └── vector
+│   │       ├── Makefile
+│   │       ├── desc-en.md
+│   │       ├── desc-fi.md
+│   │       └── src
+│   │           ├── Makefile
+│   │           ├── main
+│   │           ├── main.c
+│   │           ├── source.c
+│   │           └── source.h
+│   └── M02.zip
+├── uusyritys3
+│   ├── M03
+│   │   ├── M03.code-workspace
+│   │   ├── ascii
+│   │   │   ├── Makefile
+│   │   │   ├── desc-en.md
+│   │   │   ├── desc-fi.md
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main.c
+│   │   │       ├── source.c
+│   │   │       └── source.h
+│   │   ├── blocks
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       └── main.c
+│   │   ├── calc
+│   │   │   ├── Makefile
+│   │   │   ├── desc-en.md
+│   │   │   ├── desc-fi.md
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── main.c
+│   │   │       ├── source.c
+│   │   │       └── source.h
+│   │   ├── for
+│   │   │   ├── Makefile
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       └── main.c
+│   │   ├── macros
+│   │   │   ├── Makefile
+│   │   │   ├── desc-en.md
+│   │   │   ├── desc-fi.md
+│   │   │   └── src
+│   │   │       ├── Makefile
+│   │   │       ├── macros.h
+│   │   │       ├── main
+│   │   │       └── main.c
+│   │   └── triangle
+│   │       ├── Makefile
+│   │       ├── desc-en.md
+│   │       ├── desc-fi.md
+│   │       └── src
+│   │           ├── Makefile
+│   │           ├── main.c
+│   │           ├── source.c
+│   │           └── source.h
+│   └── M03.zip
+└── viela
+    ├── moi
+    ├── project.code-workspace
+    ├── project_2022_template
+    ├── project_2022_template.zip
+    ├── src
+    │   ├── Makefile
+    │   ├── main.out
+    │   ├── project.c
+    │   └── project.h
+    ├── test
+    └── test.txt

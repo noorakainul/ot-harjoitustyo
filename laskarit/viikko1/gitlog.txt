@@ -1,0 +1,96 @@
+commit fd80b7f7c4ea28c82dd0921668b1c1c509126867
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 14:44:26 2022 +0200
+
+    tien jotain en tiiä, siitä harjoittelua osiosta
+
+ tiedostoja/file3 | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 8562bcaea8984d831e82e2acbe82b31d9df4f6c9
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 14:38:03 2022 +0200
+
+    commit file1, 2, 3
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit ce2abcc7454b0cb7ea1fa5a6a76a80506d110766
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 14:30:24 2022 +0200
+
+    committasin eka ja eka1
+
+ eka.txt  | 2 ++
+ eka1.txt | 3 +++
+ 2 files changed, 5 insertions(+)
+
+commit 94e392c9470adc523211f6aca35b44ffb01bc8d9
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 14:24:00 2022 +0200
+
+    Muutoksia tiedostoihi eka ja kolmas
+
+ kolmas.txt    | 3 ++-
+ tiedosto1.txt | 1 -
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit db84c25cd3d73a3e9cb9d5d01d0adb8aa2a8a305
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 13:58:39 2022 +0200
+
+    jeejee poistin
+
+ toinen.txt | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit ac392f535cc972705a81ab17e666acca026d48f0
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 13:20:54 2022 +0200
+
+    uus hakemisto ja tiedosto
+
+ stuff/neljas.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit a599f7033a817588c32f080bead18d215b37e5ce
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 13:18:37 2022 +0200
+
+    muutoksia tokaan ja kolmanteen
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 387ed3a0e40277667381de1859d54cf1872f8992
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 13:16:25 2022 +0200
+
+    committaan kolmas tiedoston
+
+ kolmas.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit a6baf90da83dd3ba48a29adb4c9ec7548d40cead
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 13:10:32 2022 +0200
+
+    muutos ja lisays
+
+ tiedosto1.txt | 1 +
+ toinen.txt    | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 44008fbe0a7fffde0887e0acab949cf4e3896392
+Author: Noora <noora.kainulainen@aalto.fi>
+Date:   Wed Nov 16 13:05:01 2022 +0200
+
+    tiedosto1.txt luotu
+
+ tiedosto1.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+noorak@LAPTOP-0OVI2UBB:~/ot_viikko1/tiedostoja$
